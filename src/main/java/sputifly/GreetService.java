@@ -9,9 +9,9 @@ public class GreetService implements Serializable {
 
     public String greet(String name) {
         if (name == null || name.isEmpty()) {
-            return "Hello anonymous user";
+            return "Hola anónimo";
         } else {
-            return "Hello " + name;
+            return "Hola " + name;
         }
     }
 
