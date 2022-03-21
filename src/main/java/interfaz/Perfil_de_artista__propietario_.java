@@ -1,0 +1,6 @@
+package interfaz;
+
+public class Perfil_de_artista__propietario_ extends Perfil_de_artista {
+	public Configuracion__Artista_ _unnamed_Configuracion__Artista__;
+	public Personalizar_listas_visibles _unnamed_Personalizar_listas_visibles_;
+}

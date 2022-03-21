@@ -1,0 +1,6 @@
+package interfaz;
+
+public class Canciones_visibles_para_cibernauta {
+	public Pagina_de_inicio__Administrador_ _unnamed_Pagina_de_inicio__Administrador__;
+	public Cancion_visible _unnamed_Cancion_visible_;
+}

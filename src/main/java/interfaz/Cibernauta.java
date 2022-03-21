@@ -1,0 +1,7 @@
+package interfaz;
+
+public class Cibernauta {
+	public Cabecera_Cibernauta _cabecera_Cibernauta;
+	public Pagina_de_inicio__Cibernauta_ _unnamed_Pagina_de_inicio__Cibernauta__;
+	public Footer_Reproducir_musica__Cibernauta_ _unnamed_Footer_Reproducir_musica__Cibernauta__;
+}

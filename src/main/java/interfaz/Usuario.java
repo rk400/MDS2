@@ -1,0 +1,8 @@
+package interfaz;
+
+public class Usuario extends Cibernauta {
+	public Footer_Reproducir_musica__Usuario_ _unnamed_Footer_Reproducir_musica__Usuario__;
+	public Cabecera_Buscar _unnamed_Cabecera_Buscar_;
+	public Perfil_de_artista__Usuario_externo_ _perfil_de_artista__Usuario_externo_;
+	public Pagina_de_inicio__Usuario_ _pagina_de_inicio__Usuario_;
+}
