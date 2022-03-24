@@ -1,14 +1,14 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 
 /**
- * `vista-ver-estadisticas`
+ * `vista-footer-reproducir-musica`
  *
- * VistaVerEstadisticas element.
+ * VistaFooterReproducirMusica element.
  *
  * @customElement
  * @polymer
  */
-class VistaVerEstadisticas extends PolymerElement {
+class VistaFooterReproducirMusica extends PolymerElement {
 
     static get template() {
         return html`
@@ -22,7 +22,7 @@ class VistaVerEstadisticas extends PolymerElement {
     }
 
     static get is() {
-        return 'vista-ver-estadisticas';
+        return 'vista-footer-reproducir-musica';
     }
 
     static get properties() {
@@ -32,4 +32,4 @@ class VistaVerEstadisticas extends PolymerElement {
     }
 }
 
-customElements.define(VistaVerEstadisticas.is, VistaVerEstadisticas);
+customElements.define(VistaFooterReproducirMusica.is, VistaFooterReproducirMusica);
