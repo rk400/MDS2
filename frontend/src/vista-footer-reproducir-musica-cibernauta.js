@@ -25,16 +25,19 @@ class VistaFooterReproducirMusicaCibernauta extends PolymerElement {
      ◄10s 
    </vaadin-button>
    <vaadin-button>
-    ◄
+     ◄ 
    </vaadin-button>
    <vaadin-button>
-    ■
+     ■ 
    </vaadin-button>
    <vaadin-button>
-    ►
+     ► 
    </vaadin-button>
    <vaadin-button>
-    10s►
+     10s► 
+   </vaadin-button>
+   <vaadin-button>
+    ♾
    </vaadin-button>
   </vaadin-horizontal-layout>
   <vaadin-horizontal-layout theme="spacing" style="width: 100%;">
@@ -46,10 +49,10 @@ class VistaFooterReproducirMusicaCibernauta extends PolymerElement {
  <vaadin-vertical-layout theme="spacing" style="align-self: center; margin: var(--lumo-space-xs);">
   <vaadin-horizontal-layout theme="spacing">
    <vaadin-button>
-    Volumen ⎌
+     Volumen ⎌ 
    </vaadin-button>
    <vaadin-button style="align-self: center;">
-    Créditos 
+     Créditos 
    </vaadin-button>
   </vaadin-horizontal-layout>
  </vaadin-vertical-layout>
