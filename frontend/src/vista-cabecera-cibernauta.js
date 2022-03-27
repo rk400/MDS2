@@ -1,5 +1,6 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 import '@vaadin/vaadin-ordered-layout/src/vaadin-horizontal-layout.js';
+import '@vaadin/vaadin-ordered-layout/src/vaadin-vertical-layout.js';
 import '@vaadin/vaadin-button/src/vaadin-button.js';
 
 class VistaCabeceraCibernauta extends PolymerElement {
@@ -12,15 +13,18 @@ class VistaCabeceraCibernauta extends PolymerElement {
                     height: 100%;
                 }
             </style>
-<vaadin-horizontal-layout class="content" style="width: 100%; height: 100%; justify-content: space-between;">
+<vaadin-horizontal-layout class="content" style="width: 100%; height: 100%; justify-content: flex-end;">
  <img style="align-self: center; flex-grow: 0; flex-shrink: 0;" src="https://www.logomaker.com/api/main/images/1j+ojVVCOMkX9Wyrexe4hGfKzrPE9WET0QiR1TN9Nmkd+AdkkCUsh...tq9et+dERBpAQGghILesY7iix7UJZE0kU7tmLSfMhOWg==.PNG">
- <img style="width: 60%;" src="https://www.gigabyte.com/FileUpload/Global/KeyFeature/1113/img/vga/boom/07.png">
- <vaadin-button style="align-self: center;">
-   Registrarse 
- </vaadin-button>
- <vaadin-button style="align-self: center;">
-   Iniciar sesión 
- </vaadin-button>
+ <vaadin-vertical-layout theme="spacing" style="align-self: center; width: 100%; flex-direction: row;">
+  <vaadin-horizontal-layout theme="spacing" style="align-self: center; width: 100%; justify-content: flex-end;">
+   <vaadin-button style="align-self: center;">
+     Registrarse 
+   </vaadin-button>
+   <vaadin-button style="align-self: center;">
+     Iniciar sesión 
+   </vaadin-button>
+  </vaadin-horizontal-layout>
+ </vaadin-vertical-layout>
 </vaadin-horizontal-layout>
 `;
     }

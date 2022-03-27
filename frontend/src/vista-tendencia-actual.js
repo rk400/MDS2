@@ -13,7 +13,7 @@ class VistaTendenciaActual extends PolymerElement {
                 }
             </style>
 <vaadin-vertical-layout style="width: 100%; height: 100%;">
- <img style="align-self: center;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKV7T0q0dpHo9-B2lGWlaGDSIpqdkJ6CnhnQ&amp;usqp=CAU">
+ <img style="align-self: center;" src="https://imgur.com/JWBvXwk.png">
  <vaadin-button style="align-self: center;">
    Reproducir (►) 
  </vaadin-button>

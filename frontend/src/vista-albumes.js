@@ -1,8 +1,8 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 import '@vaadin/vaadin-ordered-layout/src/vaadin-horizontal-layout.js';
-import './vista-estilo.js';
+import './vista-album.js';
 
-class VistaEstilosMasFrecuentes extends PolymerElement {
+class VistaAlbumes extends PolymerElement {
 
     static get template() {
         return html`
@@ -12,16 +12,17 @@ class VistaEstilosMasFrecuentes extends PolymerElement {
                     height: 100%;
                 }
             </style>
-<vaadin-horizontal-layout class="content" style="width: 100%; height: 100%;">
- <vista-estilo></vista-estilo>
- <vista-estilo></vista-estilo>
- <vista-estilo></vista-estilo>
+<vaadin-horizontal-layout class="content" style="width: 100%; height: 100%; justify-content: space-around;">
+ <vista-album></vista-album>
+ <vista-album></vista-album>
+ <vista-album></vista-album>
+ <vista-album></vista-album>
 </vaadin-horizontal-layout>
 `;
     }
 
     static get is() {
-        return 'vista-estilos-mas-frecuentes';
+        return 'vista-albumes';
     }
 
     static get properties() {
@@ -31,4 +32,4 @@ class VistaEstilosMasFrecuentes extends PolymerElement {
     }
 }
 
-customElements.define(VistaEstilosMasFrecuentes.is, VistaEstilosMasFrecuentes);
+customElements.define(VistaAlbumes.is, VistaAlbumes);
