@@ -1,8 +1,8 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 import '@vaadin/vaadin-ordered-layout/src/vaadin-horizontal-layout.js';
-import './vista-cancion-preferida.js';
+import './vista-album.js';
 
-class VistaCancionesPreferidas extends PolymerElement {
+class VistaAlbumes extends PolymerElement {
 
     static get template() {
         return html`
@@ -13,16 +13,16 @@ class VistaCancionesPreferidas extends PolymerElement {
                 }
             </style>
 <vaadin-horizontal-layout class="content" style="width: 100%; height: 100%; justify-content: space-around;">
- <vista-cancion-preferida></vista-cancion-preferida>
- <vista-cancion-preferida></vista-cancion-preferida>
- <vista-cancion-preferida></vista-cancion-preferida>
- <vista-cancion-preferida></vista-cancion-preferida>
+ <vista-album></vista-album>
+ <vista-album></vista-album>
+ <vista-album></vista-album>
+ <vista-album></vista-album>
 </vaadin-horizontal-layout>
 `;
     }
 
     static get is() {
-        return 'vista-canciones-preferidas';
+        return 'vista-albumes';
     }
 
     static get properties() {
@@ -32,4 +32,4 @@ class VistaCancionesPreferidas extends PolymerElement {
     }
 }
 
-customElements.define(VistaCancionesPreferidas.is, VistaCancionesPreferidas);
+customElements.define(VistaAlbumes.is, VistaAlbumes);

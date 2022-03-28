@@ -1,24 +1,18 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
+import './vista-cancion.js';
 
-/**
- * `vista-cancion-preferida`
- *
- * VistaCancionPreferida element.
- *
- * @customElement
- * @polymer
- */
 class VistaCancionPreferida extends PolymerElement {
 
     static get template() {
         return html`
-            <style include="shared-styles">
+<style include="shared-styles">
                 :host {
                     display: block;
                     height: 100%;
                 }
             </style>
-        `;
+<vista-cancion></vista-cancion>
+`;
     }
 
     static get is() {
