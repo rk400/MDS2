@@ -27,16 +27,16 @@ class VistaCompartirLista extends PolymerElement {
    <label>Lista</label>
    <label>Creador</label>
    <vaadin-horizontal-layout theme="spacing" style="width: 100%; align-self: stretch;">
-    <label>0:00</label>
-    <vaadin-progress-bar></vaadin-progress-bar>
-    <label>0:00</label>
+    <label style="align-self: center;">0:00</label>
+    <vaadin-progress-bar style="flex-grow: 0; align-self: center;"></vaadin-progress-bar>
+    <label style="align-self: center;">0:00</label>
    </vaadin-horizontal-layout>
   </vaadin-vertical-layout>
  </vaadin-horizontal-layout>
  <vaadin-horizontal-layout theme="spacing" style="width: 100%;">
   <vaadin-text-field style="width: 100%;"></vaadin-text-field>
   <vaadin-button style="width: 20%;">
-   Copiar
+    Copiar 
   </vaadin-button>
  </vaadin-horizontal-layout>
 </vaadin-vertical-layout>
