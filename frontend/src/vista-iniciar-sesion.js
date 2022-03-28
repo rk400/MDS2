@@ -21,21 +21,21 @@ class VistaIniciarSesion extends PolymerElement {
  <vaadin-horizontal-layout style="align-self: center;">
   <vaadin-vertical-layout style="align-self: center; margin: var(--lumo-space-xs);">
    <img style="flex-shrink: 1; align-self: center; width: 50%;" src="https://imgur.com/F03QX4E.png">
-    <vaadin-button style="align-self: center;">
-     Apple
-    </vaadin-button></img>
+   <vaadin-button style="align-self: center;">
+     Apple 
+   </vaadin-button>
   </vaadin-vertical-layout>
   <vaadin-vertical-layout style="align-self: center; margin: var(--lumo-space-xs);">
    <img style="flex-grow: 0; flex-shrink: 4; width: 50%; align-self: center;" src="https://imgur.com/hrZVzM8.png">
-    <vaadin-button style="align-self: center;">
-     Facebook
-    </vaadin-button></img>
+   <vaadin-button style="align-self: center;">
+     Facebook 
+   </vaadin-button>
   </vaadin-vertical-layout>
   <vaadin-vertical-layout style="align-self: center; margin: var(--lumo-space-xs);">
    <img style="flex-shrink: 0; width: 50%; align-self: center;" src="https://imgur.com/EEEpzal.png">
-    <vaadin-button style="align-self: center;">
-     Google
-    </vaadin-button></img>
+   <vaadin-button style="align-self: center;">
+     Google 
+   </vaadin-button>
   </vaadin-vertical-layout>
  </vaadin-horizontal-layout>
  <label style="align-self: center;">_____________________________________________________</label>
@@ -43,10 +43,10 @@ class VistaIniciarSesion extends PolymerElement {
  <vaadin-text-field label="Contraseña:" placeholder="Introduzca contraseña" style="align-self: center; width: 30%;"></vaadin-text-field>
  <a href="" style="align-self: center; flex-grow: 0; flex-shrink: 1;">¿Se ha olvidado de la contraseña?</a>
  <vaadin-checkbox style="align-self: center;" checked>
-  Recordar
+   Recordar 
  </vaadin-checkbox>
  <vaadin-button style="align-self: center;">
-  Iniciar sesión 
+   Iniciar sesión 
  </vaadin-button>
  <vaadin-horizontal-layout theme="spacing" style="align-self: center;">
   <label style="align-self: center;">¿No tienes cuenta?</label>

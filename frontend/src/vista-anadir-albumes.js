@@ -3,7 +3,7 @@ import '@vaadin/vaadin-ordered-layout/src/vaadin-vertical-layout.js';
 import '@vaadin/vaadin-ordered-layout/src/vaadin-horizontal-layout.js';
 import '@vaadin/vaadin-button/src/vaadin-button.js';
 import '@polymer/iron-icon/iron-icon.js';
-import '@vaadin/vaadin-date-picker/src/vaadin-month-calendar.js';
+import '@vaadin/vaadin-date-picker/src/vaadin-date-picker.js';
 
 class VistaAnadirAlbumes extends PolymerElement {
 
@@ -15,7 +15,7 @@ class VistaAnadirAlbumes extends PolymerElement {
                     height: 100%;
                 }
             </style>
-<vaadin-vertical-layout style="width: 100%; height: 100%;">
+<vaadin-vertical-layout style="width: 100%; height: 100%; padding-left: var(--lumo-space-s); padding-right: var(--lumo-space-s); padding-bottom: var(--lumo-space-s);">
  <h1>Añadir álbum</h1>
  <vaadin-horizontal-layout theme="spacing" style="width: 100%; height: 100%; align-self: center; justify-content: flex-start;">
   <label style="align-self: center;">Seleccionar canciones:</label>
@@ -47,14 +47,18 @@ class VistaAnadirAlbumes extends PolymerElement {
    <iron-icon icon="lumo:plus"></iron-icon>
   </vaadin-button>
  </vaadin-horizontal-layout>
- <label>Fecha edición:</label>
- <vaadin-month-calendar style="width: 100%; height: 100%;"></vaadin-month-calendar>
- <vaadin-horizontal-layout style="width: 100%; justify-content: space-evenly;">
+ <vaadin-date-picker label="Fecha edición:" placeholder="Elige la fecha de edición" style="width: 100%;">
+  Fecha edición:
+ </vaadin-date-picker>
+ <vaadin-horizontal-layout style="width: 100%; justify-content: space-around; padding: var(--lumo-space-s); margin-top: var(--lumo-space-m);">
   <vaadin-button>
-   Cancelar
+    Cancelar 
   </vaadin-button>
   <vaadin-button>
-   Añadir
+   Eliminar
+  </vaadin-button>
+  <vaadin-button>
+    Añadir 
   </vaadin-button>
  </vaadin-horizontal-layout>
 </vaadin-vertical-layout>
