@@ -1,5 +1,6 @@
 package sputifly;
 
+import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.Key;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
@@ -67,5 +68,4 @@ public class MainView extends VerticalLayout {
     	Pagina_de_inicio__Cibernauta_ principal = new Pagina_de_inicio__Cibernauta_();
     	add(principal);
     }
-
 }
