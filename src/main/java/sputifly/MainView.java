@@ -1,5 +1,6 @@
 package sputifly;
 
+import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.Key;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
@@ -9,6 +10,9 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.PWA;
+
+import interfaz.Pagina_de_inicio__Cibernauta_;
+
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
@@ -61,6 +65,8 @@ public class MainView extends VerticalLayout {
         addClassName("centered-content");
 
         add(textField, button);
+    	Pagina_de_inicio__Cibernauta_ principal = new Pagina_de_inicio__Cibernauta_();
+    	this.getStyle().set("width", "100%");
     }
 
 }
