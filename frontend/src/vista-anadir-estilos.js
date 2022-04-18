@@ -15,38 +15,41 @@ class VistaAnadirEstilos extends PolymerElement {
                     height: 100%;
                 }
             </style>
-<vaadin-vertical-layout style="width: 100%; height: 100%;">
- <h1>Añadir estilo</h1>
+<vaadin-vertical-layout style="width: 100%; height: 100%; padding-right: var(--lumo-space-s); padding-bottom: var(--lumo-space-s); padding-left: var(--lumo-space-s);">
+ <h1>Añadir estilos</h1>
  <vaadin-text-field label="Estilo" placeholder="Introduzca nombre del estilo" style="width: 100%;"></vaadin-text-field>
  <h3>Añadir similitudes</h3>
  <vaadin-horizontal-layout style="width: 100%; align-self: center; justify-content: space-around; margin: var(--lumo-space-s);">
   <vaadin-checkbox>
-   Estilo 1
+    Estilo 1 
   </vaadin-checkbox>
   <vaadin-checkbox>
-   Estilo 2
+    Estilo 2 
   </vaadin-checkbox>
   <vaadin-checkbox>
-   Estilo 3
+    Estilo 3 
   </vaadin-checkbox>
  </vaadin-horizontal-layout>
  <vaadin-horizontal-layout style="width: 100%; align-self: center; justify-content: space-around; margin: var(--lumo-space-s);">
   <vaadin-checkbox>
-   Estilo 4
+    Estilo 4 
   </vaadin-checkbox>
   <vaadin-checkbox>
-   Estilo 5
+    Estilo 5 
   </vaadin-checkbox>
   <vaadin-checkbox>
-   Estilo 6
+    Estilo 6 
   </vaadin-checkbox>
  </vaadin-horizontal-layout>
- <vaadin-horizontal-layout style="width: 100%; justify-content: space-evenly;">
+ <vaadin-horizontal-layout style="width: 100%; justify-content: space-around; height: 100%; align-items: flex-end; padding-bottom: var(--lumo-space-s);">
   <vaadin-button>
-   Cancelar
+    Cancelar 
   </vaadin-button>
   <vaadin-button>
-   Añadir
+   Eliminar
+  </vaadin-button>
+  <vaadin-button>
+    Añadir 
   </vaadin-button>
  </vaadin-horizontal-layout>
 </vaadin-vertical-layout>
