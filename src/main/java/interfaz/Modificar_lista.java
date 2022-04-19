@@ -1,6 +1,8 @@
 package interfaz;
 
-public class Modificar_lista {
+import vistas.VistaModificarLista;
+
+public class Modificar_lista extends VistaModificarLista {
 //	private event _guardar_cambios_en_la_lista;
 //	private Label _titulo_L;
 //	private TextField _titulo_TF;
