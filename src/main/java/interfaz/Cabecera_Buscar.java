@@ -1,6 +1,8 @@
 package interfaz;
 
-public class Cabecera_Buscar {
+import vistas.VistaCabeceraBuscar;
+
+public class Cabecera_Buscar extends VistaCabeceraBuscar {
 //	private event _realizar_una_busqueda;
 //	private TextField _buscar_TF;
 //	private Button _buscar_B;

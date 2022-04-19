@@ -1,6 +1,8 @@
 package interfaz;
 
-public class Notificacion {
+import vistas.VistaNotificacion;
+
+public class Notificacion extends VistaNotificacion{
 //	private event _eliminar_notificacion;
 //	private Label _titulo;
 //	private Label _descripcion;
