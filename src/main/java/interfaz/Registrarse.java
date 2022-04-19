@@ -1,6 +1,8 @@
 package interfaz;
 
-public class Registrarse extends Elementos_comunes_inicio_de_sesion {
+import vistas.VistaRegistrarse;
+
+public class Registrarse extends VistaRegistrarse /*Elementos_comunes_inicio_de_sesion*/ {
 //	private Label _nick_L;
 //	private TextField _nick_TF;
 //	private Button _subir_foto;
@@ -14,9 +16,13 @@ public class Registrarse extends Elementos_comunes_inicio_de_sesion {
 //	private Image _indice_de_seguridad;
 //	private Popup _contrasena_erronea;
 //	private Popup _nick_en_uso;
-	public Cabecera_Cibernauta _cabecera_Cibernauta;
-	public Verificar_email _unnamed_Verificar_email_;
-	public Iniciar_sesion _unnamed_Iniciar_sesion_;
+//	public Cabecera_Cibernauta _cabecera_Cibernauta;
+//	public Verificar_email _unnamed_Verificar_email_;
+//	public Iniciar_sesion _unnamed_Iniciar_sesion_;
+	
+	public Registrarse() {
+		
+	}
 
 	public void Registrarse_con_terceros() {
 		throw new UnsupportedOperationException();

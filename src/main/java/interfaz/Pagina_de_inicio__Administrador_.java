@@ -2,8 +2,9 @@ package interfaz;
 
 import java.util.Vector;
 import interfaz.Canciones_visibles_para_cibernauta;
+import vistas.VistaPaginaInicioAdministrador;
 
-public class Pagina_de_inicio__Administrador_ {
+public class Pagina_de_inicio__Administrador_ extends VistaPaginaInicioAdministrador {
 //	private Label _can_visibles_cibernauta_label;
 //	private Button _solicitudes_artistas_button;
 //	private Label _solicitudes_artistas_label;

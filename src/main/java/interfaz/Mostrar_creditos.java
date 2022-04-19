@@ -1,6 +1,8 @@
 package interfaz;
 
-public class Mostrar_creditos {
+import vistas.VistaMostrarCreditos;
+
+public class Mostrar_creditos extends VistaMostrarCreditos {
 //	private Label _titulo;
 //	private Label _album;
 //	private Label _compositor;
