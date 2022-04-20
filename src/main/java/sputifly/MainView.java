@@ -66,6 +66,10 @@ public class MainView extends VerticalLayout {
 //
 //        add(textField, button);
     	Pagina_de_inicio__Cibernauta_ principal = new Pagina_de_inicio__Cibernauta_();
+    	this.getStyle().set("width", "100%");
+    	this.getStyle().set("height", "100%");
+
     	add(principal);
+
     }
 }

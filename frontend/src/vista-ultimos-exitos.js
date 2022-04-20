@@ -1,6 +1,6 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 import '@vaadin/vaadin-ordered-layout/src/vaadin-horizontal-layout.js';
-import './vista-ultimo-exito.js';
+import './vista-elementos-visuales-comunes.js';
 
 class VistaUltimosExitos extends PolymerElement {
 
@@ -12,11 +12,11 @@ class VistaUltimosExitos extends PolymerElement {
                     height: 100%;
                 }
             </style>
-<vaadin-horizontal-layout class="content" style="width: 100%; height: 100%; justify-content: space-around;">
- <vista-ultimo-exito></vista-ultimo-exito>
- <vista-ultimo-exito></vista-ultimo-exito>
- <vista-ultimo-exito></vista-ultimo-exito>
- <vista-ultimo-exito></vista-ultimo-exito>
+<vaadin-horizontal-layout class="content" style="width: 100%; height: 100%; justify-content: space-around;" id="vaadinHorizontalLayout">
+ <vista-elementos-visuales-comunes id="vistaElementosVisualesComunes"></vista-elementos-visuales-comunes>
+ <vista-elementos-visuales-comunes id="vistaElementosVisualesComunes1"></vista-elementos-visuales-comunes>
+ <vista-elementos-visuales-comunes id="vistaElementosVisualesComunes2"></vista-elementos-visuales-comunes>
+ <vista-elementos-visuales-comunes id="vistaElementosVisualesComunes3"></vista-elementos-visuales-comunes>
 </vaadin-horizontal-layout>
 `;
     }

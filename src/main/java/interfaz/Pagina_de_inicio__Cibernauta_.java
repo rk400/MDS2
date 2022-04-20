@@ -13,6 +13,14 @@ public class Pagina_de_inicio__Cibernauta_ extends VistaPaginaInicioCibernauta{
 	public Vector<Tendencias_actuales> _unnamed_Tendencias_actuales_ = new Vector<Tendencias_actuales>();
 	
 	public Pagina_de_inicio__Cibernauta_() {
+		inicializar();
+	}
+	
+	public void inicializar() {
+		getVaadinVerticalLayout().getStyle().set("width", "100%");
+		getVaadinHorizontalLayout().getStyle().set("width", "100%");
+		getVaadinHorizontalLayout1().getStyle().set("width", "100%");
+		
 		
 	}
 }
