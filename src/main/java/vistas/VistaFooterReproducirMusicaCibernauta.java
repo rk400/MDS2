@@ -26,17 +26,17 @@ public class VistaFooterReproducirMusicaCibernauta extends PolymerTemplate<Vista
 	@Id("vaadinVerticalLayout")
 	private Element vaadinVerticalLayout;
 	@Id("label")
-	private Label label;
+	private Label cancionLabel;
 	@Id("label1")
-	private Label label1;
+	private Label AutorLabel;
 	@Id("vaadinVerticalLayout1")
 	private Element vaadinVerticalLayout1;
 	@Id("vaadinHorizontalLayout1")
 	private HorizontalLayout vaadinHorizontalLayout1;
 	@Id("vaadinButton")
-	private Button vaadinButton;
+	private Button botonMenosDiez;
 	@Id("vaadinButton1")
-	private Button vaadinButton1;
+	private Button boton;
 	@Id("vaadinButton2")
 	private Button vaadinButton2;
 	@Id("vaadinButton3")
