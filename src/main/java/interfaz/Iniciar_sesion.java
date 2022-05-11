@@ -1,6 +1,8 @@
 package interfaz;
 
-public class Iniciar_sesion extends Elementos_comunes_inicio_de_sesion {
+import vistas.VistaIniciarSesion;
+
+public class Iniciar_sesion extends VistaIniciarSesion {
 //	private Label _terceros_L;
 //	private Label _contrasena_olvidada;
 //	private ChechBox _recordar;
@@ -33,4 +35,14 @@ public class Iniciar_sesion extends Elementos_comunes_inicio_de_sesion {
 	private boolean Comprobar_bloqueo() {
 		throw new UnsupportedOperationException();
 	}
+	
+	public Iniciar_sesion() {
+		inicializar();
+	}
+	
+	public void inicializar() {
+		this.getElement().getStyle().set("width", "100%");
+		this.getElement().getStyle().set("height", "100%");
+	}
+	
 }

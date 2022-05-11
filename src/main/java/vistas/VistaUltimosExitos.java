@@ -7,6 +7,7 @@ import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.template.Id;
 import com.vaadin.flow.dom.Element;
+import com.vaadin.flow.component.html.Label;
 
 /**
  * A Designer generated component for the vista-ultimos-exitos template.
@@ -28,6 +29,10 @@ public class VistaUltimosExitos extends PolymerTemplate<VistaUltimosExitos.Vista
 	private Element cancion3;
 	@Id("vistaElementosVisualesComunes3")
 	private Element cancion4;
+	@Id("vaadinVerticalLayout")
+	private Element vaadinVerticalLayout;
+	@Id("label")
+	private Label label;
 	
 	
 	public HorizontalLayout getVaadinHorizontalLayout() {

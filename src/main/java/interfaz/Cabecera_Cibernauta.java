@@ -1,5 +1,7 @@
 package interfaz;
 
+import com.vaadin.flow.component.orderedlayout.VerticalLayout;
+
 import vistas.VistaCabeceraCibernauta;
 
 public class Cabecera_Cibernauta extends VistaCabeceraCibernauta{
@@ -15,8 +17,8 @@ public class Cabecera_Cibernauta extends VistaCabeceraCibernauta{
 	}
 	
 	public void inicializar() {
-		getVaadinHorizontalLayout().getStyle().set("width", "100%");
-		getVaadinVerticalLayout().getStyle().set("width", "100%");
-		getVaadinHorizontalLayout1().getStyle().set("width", "100%");
+		this.getElement().getStyle().set("width", "100%");
+		this.getElement().getStyle().set("height", "100%");
+		
 	}
 }

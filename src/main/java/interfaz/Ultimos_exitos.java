@@ -13,6 +13,7 @@ public class Ultimos_exitos extends VistaUltimosExitos{
 	}
 	
 	public void inicializar() {
-		getVaadinHorizontalLayout().getStyle().set("width", "100%");
+		this.getElement().getStyle().set("width", "100%");
+		this.getElement().getStyle().set("height", "100%");
 	}
 }

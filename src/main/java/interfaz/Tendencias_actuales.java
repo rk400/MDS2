@@ -13,6 +13,7 @@ public class Tendencias_actuales extends VistaTendenciasActuales {
 	}
 	
 	public void inicializar() {
-		getVaadinHorizontalLayout().getStyle().set("width", "100%");
+		this.getElement().getStyle().set("width", "100%");
+		this.getElement().getStyle().set("height", "100%");
 	}
 }

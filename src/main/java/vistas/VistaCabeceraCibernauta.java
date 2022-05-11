@@ -5,6 +5,7 @@ import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
+import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.template.Id;
 import com.vaadin.flow.component.html.Image;
 import com.vaadin.flow.dom.Element;
@@ -20,12 +21,14 @@ import com.vaadin.flow.component.button.Button;
 @JsModule("./src/vista-cabecera-cibernauta.js")
 public class VistaCabeceraCibernauta extends PolymerTemplate<VistaCabeceraCibernauta.VistaCabeceraCibernautaModel> {
 
+	@Id("mainLayout")
+	private Element mainLayout;
     @Id("vaadinHorizontalLayout")
 	private HorizontalLayout vaadinHorizontalLayout;
 	@Id("img")
 	private Image img;
 	@Id("vaadinVerticalLayout")
-	private Element vaadinVerticalLayout;
+	private VerticalLayout vaadinVerticalLayout;
 	@Id("vaadinHorizontalLayout1")
 	private HorizontalLayout vaadinHorizontalLayout1;
 	@Id("vaadinButton")
@@ -34,6 +37,23 @@ public class VistaCabeceraCibernauta extends PolymerTemplate<VistaCabeceraCibern
 	private Button vaadinButton1IniciarSesion;
 	
 	
+	
+
+	public Element getMainLayout() {
+		return mainLayout;
+	}
+
+	public void setMainLayout(Element mainLayout) {
+		this.mainLayout = mainLayout;
+	}
+
+	public VerticalLayout getVaadinVerticalLayout() {
+		return vaadinVerticalLayout;
+	}
+
+	public void setVaadinVerticalLayout(VerticalLayout vaadinVerticalLayout) {
+		this.vaadinVerticalLayout = vaadinVerticalLayout;
+	}
 
 	public HorizontalLayout getVaadinHorizontalLayout() {
 		return vaadinHorizontalLayout;
@@ -49,14 +69,6 @@ public class VistaCabeceraCibernauta extends PolymerTemplate<VistaCabeceraCibern
 
 	public void setImg(Image img) {
 		this.img = img;
-	}
-
-	public Element getVaadinVerticalLayout() {
-		return vaadinVerticalLayout;
-	}
-
-	public void setVaadinVerticalLayout(Element vaadinVerticalLayout) {
-		this.vaadinVerticalLayout = vaadinVerticalLayout;
 	}
 
 	public HorizontalLayout getVaadinHorizontalLayout1() {
