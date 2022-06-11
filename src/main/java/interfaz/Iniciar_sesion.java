@@ -44,5 +44,4 @@ public class Iniciar_sesion extends VistaIniciarSesion {
 		this.getElement().getStyle().set("width", "100%");
 		this.getElement().getStyle().set("height", "100%");
 	}
-	
 }
