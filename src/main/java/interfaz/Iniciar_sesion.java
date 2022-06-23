@@ -1,7 +1,14 @@
 package interfaz;
 
+import com.vaadin.flow.component.ClickEvent;
+import com.vaadin.flow.component.ComponentEventListener;
+import com.vaadin.flow.component.button.Button;
+import com.vaadin.flow.component.orderedlayout.VerticalLayout;
+import com.vaadin.flow.dom.Element;
+
 import vistas.VistaIniciarSesion;
 
+@SuppressWarnings("serial")
 public class Iniciar_sesion extends VistaIniciarSesion {
 //	private Label _terceros_L;
 //	private Label _contrasena_olvidada;
@@ -13,8 +20,9 @@ public class Iniciar_sesion extends VistaIniciarSesion {
 //	private int _contador_bloqueo;
 //	private Popup _usuario_de_baja;
 	public Cabecera_Cibernauta _cabecera_Cibernauta;
-	public Registrarse _unnamed_Registrarse_;
+	public Registrarse _registrarse;
 	public Recuperar_contrasena _recuperar_contrasena;
+	public VerticalLayout layout;
 
 	public void Iniciar_sesion_con_terceros() {
 		throw new UnsupportedOperationException();
@@ -43,5 +51,15 @@ public class Iniciar_sesion extends VistaIniciarSesion {
 	public void inicializar() {
 		this.getElement().getStyle().set("width", "100%");
 		this.getElement().getStyle().set("height", "100%");
+		layout = getVaadinVerticalLayout();
+		
+		this.getEnlaceRegistrarse().addClickListener(new ComponentEventListener<ClickEvent<Button>>() {
+			@Override
+			public void onComponentEvent(ClickEvent<Button> event) {
+				Registrarse r = new Registrarse();
+				layout.removeAll();
+				layout.add(r);
+			}
+		});
 	}
 }

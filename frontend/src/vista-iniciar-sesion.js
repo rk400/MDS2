@@ -1,9 +1,9 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 import '@vaadin/vaadin-ordered-layout/src/vaadin-horizontal-layout.js';
 import '@vaadin/vaadin-ordered-layout/src/vaadin-vertical-layout.js';
-import '@vaadin/vaadin-button/src/vaadin-button.js';
 import '@vaadin/vaadin-text-field/src/vaadin-text-field.js';
 import '@vaadin/vaadin-checkbox/src/vaadin-checkbox.js';
+import '@vaadin/vaadin-button/src/vaadin-button.js';
 
 class VistaIniciarSesion extends PolymerElement {
 
@@ -41,16 +41,20 @@ class VistaIniciarSesion extends PolymerElement {
  <label style="align-self: center;" id="label1">_____________________________________________________</label>
  <vaadin-text-field label="Email/Usuario:" placeholder="Introduzca email o usuario" style="align-self: center; width: 30%;" id="Email_Usuario"></vaadin-text-field>
  <vaadin-text-field label="Contraseña:" placeholder="Introduzca contraseña" style="align-self: center; width: 30%;" id="contraseña"></vaadin-text-field>
- <a href="" style="align-self: center; flex-grow: 0; flex-shrink: 1;" id="a">¿Se ha olvidado de la contraseña?</a>
+ <vaadin-button id="enlaceRecordarContraseña" style="align-self: center;" theme="tertiary">
+   ¿Se ha olvidado de la contraseña? 
+ </vaadin-button>
  <vaadin-checkbox style="align-self: center;" checked id="vaadinCheckbox">
    Recordar 
  </vaadin-checkbox>
- <vaadin-button style="align-self: center;" id="vaadinButton3">
+ <vaadin-button style="align-self: center;" id="vaadinButton3" theme="primary">
    Iniciar sesión 
  </vaadin-button>
  <vaadin-horizontal-layout theme="spacing" style="align-self: center;" id="vaadinHorizontalLayout1">
   <label style="align-self: center;" id="label2">¿No tienes cuenta?</label>
-  <a href="https://vaadin.com" id="a1">Registrate </a>
+  <vaadin-button id="enlaceRegistrarse" theme="tertiary">
+    Registrarse 
+  </vaadin-button>
  </vaadin-horizontal-layout>
 </vaadin-vertical-layout>
 `;

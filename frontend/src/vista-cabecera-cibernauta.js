@@ -18,10 +18,10 @@ class VistaCabeceraCibernauta extends PolymerElement {
   <img style="align-self: center; flex-grow: 0; flex-shrink: 0; margin-left: var(--lumo-space-s);" src="https://www.logomaker.com/api/main/images/1j+ojVVCOMkX9Wyrexe4hGfKzrPE9WET0QiR1TN9Nmkd+AdkkCUsh...tq9et+dERBpAQGghILesY7iix7UJZE0kU7tmLSfMhOWg==.PNG" id="img">
   <vaadin-vertical-layout theme="spacing" style="align-self: center; width: 100%; flex-direction: row;" id="vaadinVerticalLayout">
    <vaadin-horizontal-layout theme="spacing" style="align-self: center; width: 100%; justify-content: flex-end;" id="vaadinHorizontalLayout1">
-    <vaadin-button style="align-self: center;" id="vaadinButton">
+    <vaadin-button style="align-self: center;" id="botonRegistrarse">
       Registrarse 
     </vaadin-button>
-    <vaadin-button style="align-self: center;" id="vaadinButton1">
+    <vaadin-button style="align-self: center;" id="botonIniciarSesion">
       Iniciar sesión 
     </vaadin-button>
    </vaadin-horizontal-layout>

@@ -60,8 +60,6 @@ public class VistaIniciarSesion extends PolymerTemplate<VistaIniciarSesion.Vista
 	private TextField email_Usuario;
 	@Id("contraseña")
 	private TextField contraseña;
-	@Id("a")
-	private Element a;
 	@Id("vaadinCheckbox")
 	private Checkbox vaadinCheckbox;
 	@Id("vaadinButton3")
@@ -70,10 +68,26 @@ public class VistaIniciarSesion extends PolymerTemplate<VistaIniciarSesion.Vista
 	private HorizontalLayout vaadinHorizontalLayout1;
 	@Id("label2")
 	private Label label2;
-	@Id("a1")
-	private Element a1;
-
+	@Id("enlaceRegistrarse")
+	private Button enlaceRegistrarse;
+	@Id("enlaceRecordarContraseña")
+	private Button enlaceRecordarContraseña;
 	
+	public Button getEnlaceRegistrarse() {
+		return enlaceRegistrarse;
+	}
+
+	public void setEnlaceRegistrarse(Button enlaceRegistrarse) {
+		this.enlaceRegistrarse = enlaceRegistrarse;
+	}
+
+	public Button getEnlaceRecordarContraseña() {
+		return enlaceRecordarContraseña;
+	}
+
+	public void setEnlaceRecordarContraseña(Button enlaceRecordarContraseña) {
+		this.enlaceRecordarContraseña = enlaceRecordarContraseña;
+	}
 	
 	public VerticalLayout getVaadinVerticalLayout() {
 		return vaadinVerticalLayout;
@@ -203,14 +217,6 @@ public class VistaIniciarSesion extends PolymerTemplate<VistaIniciarSesion.Vista
 		this.contraseña = contraseña;
 	}
 
-	public Element getA() {
-		return a;
-	}
-
-	public void setA(Element a) {
-		this.a = a;
-	}
-
 	public Checkbox getVaadinCheckbox() {
 		return vaadinCheckbox;
 	}
@@ -241,14 +247,6 @@ public class VistaIniciarSesion extends PolymerTemplate<VistaIniciarSesion.Vista
 
 	public void setLabel2(Label label2) {
 		this.label2 = label2;
-	}
-
-	public Element getA1() {
-		return a1;
-	}
-
-	public void setA1(Element a1) {
-		this.a1 = a1;
 	}
 
 	/**

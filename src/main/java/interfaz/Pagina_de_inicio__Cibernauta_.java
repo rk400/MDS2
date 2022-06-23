@@ -35,7 +35,17 @@ public class Pagina_de_inicio__Cibernauta_ extends VistaPaginaInicioCibernauta{
 		
 		Footer_Reproducir_musica footer = new Footer_Reproducir_musica();
 		
-		cabecera.getVaadinButton1IniciarSesion().addClickListener(new ComponentEventListener<ClickEvent<Button>>() {
+		cabecera.getVaadinButtonRegistrarse().addClickListener(new ComponentEventListener<ClickEvent<Button>>() {
+			
+			@Override
+			public void onComponentEvent(ClickEvent<Button> event) {
+				Registrarse r = new Registrarse();
+				layout.removeAll();
+				layout.add(r);
+			}
+		});
+		
+		cabecera.getVaadinButtonIniciarSesion().addClickListener(new ComponentEventListener<ClickEvent<Button>>() {
 			
 			@Override
 			public void onComponentEvent(ClickEvent<Button> event) {

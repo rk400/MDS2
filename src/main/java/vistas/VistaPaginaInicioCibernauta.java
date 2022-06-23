@@ -25,10 +25,6 @@ import vistas.VistaFooterReproducirMusica;
 @JsModule("./src/vista-pagina-inicio-cibernauta.js")
 public class VistaPaginaInicioCibernauta extends PolymerTemplate<VistaPaginaInicioCibernauta.VistaPaginaInicioCibernautaModel> {
 
-    
-
-	
-
 	@Id("vaadinVerticalLayout")
 	private Element vaadinVerticalLayout;
 	

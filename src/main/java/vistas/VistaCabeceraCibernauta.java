@@ -31,9 +31,9 @@ public class VistaCabeceraCibernauta extends PolymerTemplate<VistaCabeceraCibern
 	private VerticalLayout vaadinVerticalLayout;
 	@Id("vaadinHorizontalLayout1")
 	private HorizontalLayout vaadinHorizontalLayout1;
-	@Id("vaadinButton")
+	@Id("botonRegistrarse")
 	private Button vaadinButtonRegistrarse;
-	@Id("vaadinButton1")
+	@Id("botonIniciarSesion")
 	private Button vaadinButton1IniciarSesion;
 	
 	
@@ -87,11 +87,11 @@ public class VistaCabeceraCibernauta extends PolymerTemplate<VistaCabeceraCibern
 		this.vaadinButtonRegistrarse = vaadinButtonRegistrarse;
 	}
 
-	public Button getVaadinButton1IniciarSesion() {
+	public Button getVaadinButtonIniciarSesion() {
 		return vaadinButton1IniciarSesion;
 	}
 
-	public void setVaadinButton1IniciarSesion(Button vaadinButton1IniciarSesion) {
+	public void setVaadinButtonIniciarSesion(Button vaadinButton1IniciarSesion) {
 		this.vaadinButton1IniciarSesion = vaadinButton1IniciarSesion;
 	}
 
