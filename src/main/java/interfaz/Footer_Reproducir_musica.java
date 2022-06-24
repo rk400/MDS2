@@ -1,6 +1,8 @@
 package interfaz;
 
-public class Footer_Reproducir_musica {
+import vistas.VistaFooterReproducirMusica;
+
+public class Footer_Reproducir_musica extends VistaFooterReproducirMusica{
 //	private ProgressBar _barra_de_reproduccion;
 //	private Label _tiempo_actual;
 //	private Label _tiempo_total;
@@ -45,5 +47,15 @@ public class Footer_Reproducir_musica {
 
 	public void Reanudar_cancion() {
 		throw new UnsupportedOperationException();
+	}
+	
+	public Footer_Reproducir_musica() {
+		inicializar();
+	}
+	
+	public void inicializar() {
+		this.getElement().getStyle().set("width", "100%");
+		this.getElement().getStyle().set("height", "100%");
+		
 	}
 }

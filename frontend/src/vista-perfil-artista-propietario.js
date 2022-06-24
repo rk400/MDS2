@@ -1,24 +1,18 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
+import '@vaadin/vaadin-ordered-layout/src/vaadin-vertical-layout.js';
 
-/**
- * `vista-perfil-artista-propietario`
- *
- * VistaPerfilArtistaPropietario element.
- *
- * @customElement
- * @polymer
- */
 class VistaPerfilArtistaPropietario extends PolymerElement {
 
     static get template() {
         return html`
-            <style include="shared-styles">
+<style include="shared-styles">
                 :host {
                     display: block;
                     height: 100%;
                 }
             </style>
-        `;
+<vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;"></vaadin-vertical-layout>
+`;
     }
 
     static get is() {

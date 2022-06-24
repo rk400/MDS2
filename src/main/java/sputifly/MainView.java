@@ -11,6 +11,7 @@ import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.PWA;
 
+import interfaz.Iniciar_sesion;
 import interfaz.Pagina_de_inicio__Cibernauta_;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -65,7 +66,10 @@ public class MainView extends VerticalLayout {
 //        addClassName("centered-content");
 //
 //        add(textField, button);
-    	Pagina_de_inicio__Cibernauta_ principal = new Pagina_de_inicio__Cibernauta_();
-    	add(principal);
+    	Pagina_de_inicio__Cibernauta_ inicio = new Pagina_de_inicio__Cibernauta_();
+    	inicio.getElement().getStyle().set("width", "100%");
+    	inicio.getElement().getStyle().set("height", "100%");
+    	add(inicio);
+
     }
 }
